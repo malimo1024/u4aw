@@ -1,0 +1,42 @@
+---
+title: "タイトル"
+subtitle: "サブタイトル"
+author: "氏名(所属)"
+header-includes:
+- \usepackage{xltxtra}
+- \usepackage{zxjatype}
+- \setmonofont{mplus-2p-regular}
+- \setjamonofont{mplus-2p-regular}
+- \setsansfont{mplus-2p-regular}
+geometry: no
+fontsize: 11pt
+bibliography: bibliography.bib
+---
+
+# はじめに
+
+# 先行研究
+
+# 仮説
+
+# 方法とデータ
+
+コミュニティ抽出アルゴリズムにはLouvain法を用いる[@Blondel_Fast_2008]。 モジュラリティQは以下のように定義される。
+
+$$ Q=\frac{1}{2 m}\sum_{i,j} (A_{ij} - \frac{k_i k_j}{2 m})\delta(c_i,c_j) $$
+
+# 結果
+
+以下の図は観測されたネットワークである[^1]。
+
+![図](figure.png)
+
+[^1]:このグラフは、Erdos-Renyiモデルからランダムに生成された(N = 50, p = 0.01)。
+
+# 考察
+
+# 今後の課題
+
+# 謝辞
+
+# 参考文献
